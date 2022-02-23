@@ -6,7 +6,7 @@ const MyApp = ({ Component, pageProps }) => (
     <Head>
       <title>SHOP</title>;
     </Head>
-    <meta name="description" content={'description'} />;
+    <meta name="description" content={'description'} />
     <Component {...pageProps} />
   </>
 );
