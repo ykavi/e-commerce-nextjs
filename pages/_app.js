@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import { ThemeProvider } from 'styled-components'
+import theme from '../theme'
 import '../styles/globals.css';
 
 const MyApp = ({ Component, pageProps }) => (
@@ -7,7 +9,9 @@ const MyApp = ({ Component, pageProps }) => (
       <title>SHOP</title>;
     </Head>
     <meta name="description" content={'description'} />
-    <Component {...pageProps} />
+      <ThemeProvider theme={theme}>
+        <Component {...pageProps} />
+      </ThemeProvider>
   </>
 );
 
