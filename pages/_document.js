@@ -1,10 +1,20 @@
 import { Html, Head, Main, NextScript } from 'next/document';
+import normalizeCSS from '../styles/normalize';
+import globalCSS from '../styles/global';
 
 const Document = () => {
   return (
     <Html lang="en">
       <Head>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+        <style
+          dangerouslySetInnerHTML={{
+            __html: `
+                ${normalizeCSS}
+                ${globalCSS}
+              `,
+          }}
+        />
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans" />
       </Head>
       <body>
         <Main />

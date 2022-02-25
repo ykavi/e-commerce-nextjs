@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import { ThemeProvider } from 'styled-components'
 import theme from '../theme'
-import '../styles/globals.css';
 
 const MyApp = ({ Component, pageProps }) => (
   <>
