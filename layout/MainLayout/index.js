@@ -3,13 +3,13 @@ import { Header, Footer } from '@components';
 import { Main } from './style';
 
 const MainLayout = ({ children }) => (
-  <Grid>
-    <Row>
-      <Header />
+  <>
+    <Header />
+    <Grid>
       <Main>{children}</Main>
-      <Footer />
-    </Row>
-  </Grid>
+    </Grid>
+    <Footer />
+  </>
 );
 
 export default MainLayout;
