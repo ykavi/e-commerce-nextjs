@@ -1,13 +1,15 @@
-import { Col, Row } from 'react-styled-flexboxgrid';
+import { Col, Grid, Row } from 'react-styled-flexboxgrid';
 import { StyledHeader } from './style';
 
 const Header = () => (
   <StyledHeader>
-    <Row>
-      <Col lg={6}>
-        <p>Header</p>
-      </Col>
-    </Row>
+    <Grid>
+      <Row>
+        <Col lg={12}>LOGO</Col>
+        <Col lg={10}>SEARCH_BAR</Col>
+        <Col lg={2}>BASKED_CART</Col>
+      </Row>
+    </Grid>
   </StyledHeader>
 );
 
