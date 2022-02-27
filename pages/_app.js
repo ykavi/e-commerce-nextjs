@@ -1,6 +1,7 @@
 import Head from 'next/head';
-import { ThemeProvider } from 'styled-components'
-import theme from '../theme'
+import { ThemeProvider } from 'styled-components';
+import theme from '@theme';
+import { MainLayout } from '@layout';
 
 const MyApp = ({ Component, pageProps }) => (
   <>
@@ -8,9 +9,11 @@ const MyApp = ({ Component, pageProps }) => (
       <title>SHOP</title>;
     </Head>
     <meta name="description" content={'description'} />
-      <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme}>
+      <MainLayout>
         <Component {...pageProps} />
-      </ThemeProvider>
+      </MainLayout>
+    </ThemeProvider>
   </>
 );
 
