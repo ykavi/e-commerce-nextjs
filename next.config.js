@@ -4,6 +4,9 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
+  images: {
+    domains: ['vuaws.imgix.net'], //eklenen cdn domaini kullanılabilir
+  },
 };
 
 module.exports = nextConfig;

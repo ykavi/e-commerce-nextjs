@@ -1,6 +1,7 @@
 const theme = {
   colors: {
     grey_v1: '#333333',
+    grey_v2: '#e8e8e8',
   },
   flexboxgrid: {
     gridSize: 24, // columns
@@ -31,7 +32,7 @@ const theme = {
     bold: 700,
   },
   sizes: {
-    none: '0',
+    base: '0.062rem', // 1px
     xxxxsmall: '0.125rem', // 2px
     xxxsmall: '0.25rem', // 4px
     xxsmall: '0.5rem', // 8px
