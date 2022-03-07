@@ -1,7 +1,10 @@
 const theme = {
   colors: {
+    brand_color: '#FF6666',
+    white: '#FFFFFF',
     grey_v1: '#333333',
     grey_v2: '#e8e8e8',
+    grey_v3: '#f3f3f3',
   },
   flexboxgrid: {
     gridSize: 24, // columns

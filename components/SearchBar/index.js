@@ -1,9 +1,10 @@
 import { Grid, Col, Row } from 'react-styled-flexboxgrid';
+import { StyledInput, Container } from './style';
 
 const SearchBar = () => (
-  <>
-    <p>search</p>
-  </>
+  <Container>
+    <StyledInput type="text" />
+  </Container>
 );
 
 export default SearchBar;
