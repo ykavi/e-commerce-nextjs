@@ -1,4 +1,5 @@
 import Header from './Header';
 import Footer from './Footer';
+import SearchBar from './SearchBar';
 
-export { Header, Footer };
+export { Header, Footer, SearchBar };
