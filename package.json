@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "svg": "svgr -d components/Icons components/Icons/svgs"
+    "svg": "svgr -d components/Icons --svg-props \"width=100,\" components/Icons/svgs"
   },
   "engines": {
     "node": ">=16.13.2"

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const StyledInput = styled.input`
-  margin: 0 ${({ theme }) => theme.sizes.xxxxlarge};
   padding: ${({ theme }) => theme.sizes.xsmall} ${({ theme }) => theme.sizes.medium};
   background: ${({ theme }) => theme.colors.grey_v3};
   width: 100%;
@@ -19,4 +18,11 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   height: 100%;
+  padding: 0 ${({ theme }) => theme.sizes.xxxxlarge};
+`;
+
+export const IconWrapper = styled.div`
+  display: flex;
+  position: relative;
+  right: ${({ theme }) => theme.sizes.xxxlarge};
 `;

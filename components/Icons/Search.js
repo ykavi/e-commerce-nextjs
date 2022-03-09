@@ -1,8 +1,12 @@
 import * as React from 'react';
 
 const SvgSearch = (props) => (
-  <svg viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg" {...props}>
-    <path d="m29.71 28.29-6.5-6.5h-.07a12 12 0 1 0-1.39 1.39s0 .05 0 .07l6.5 6.5a1 1 0 0 0 1.42 0 1 1 0 0 0 .04-1.46ZM14 24a10 10 0 1 1 10-10 10 10 0 0 1-10 10Z" />
+  <svg xmlns="http://www.w3.org/2000/svg" className="search_svg__h-5 search_svg__w-5" viewBox="0 0 20 20" fill="currentColor" width="100" {...props}>
+    <path
+      fillRule="evenodd"
+      d="M8 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM2 8a6 6 0 1 1 10.89 3.476l4.817 4.817a1 1 0 0 1-1.414 1.414l-4.816-4.816A6 6 0 0 1 2 8z"
+      clipRule="evenodd"
+    />
   </svg>
 );
 
