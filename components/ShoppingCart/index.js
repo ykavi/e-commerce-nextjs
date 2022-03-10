@@ -13,7 +13,7 @@ const ShoppingCart = () => {
       </Text>
 
       <IconWrapper>
-        <Basket width={27} />
+        <Basket width={30} />
       </IconWrapper>
     </Container>
   );

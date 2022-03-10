@@ -9,7 +9,7 @@ const theme = {
   flexboxgrid: {
     gridSize: 24, // columns
     gutterWidth: 1, // rem
-    outerMargin: 2, // rem
+    outerMargin: 0.5, // rem
     mediaQuery: 'only screen',
     container: {
       sm: 46, // rem
