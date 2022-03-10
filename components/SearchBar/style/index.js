@@ -11,6 +11,11 @@ export const StyledInput = styled.input`
 
   &:focus {
     border: ${({ theme }) => theme.sizes.xxxxsmall} solid ${({ theme }) => theme.colors.brand_color};
+    padding: ${({ theme }) => theme.sizes.xsmall} 0.937rem;
+  }
+
+  &::placeholder {
+    font-size: ${({ theme }) => theme.sizes.small};
   }
 `;
 
@@ -25,4 +30,5 @@ export const IconWrapper = styled.div`
   display: flex;
   position: relative;
   right: ${({ theme }) => theme.sizes.xxxlarge};
+  cursor: pointer;
 `;
