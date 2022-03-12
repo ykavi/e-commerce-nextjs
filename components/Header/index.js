@@ -7,7 +7,7 @@ const Header = () => (
     <Grid>
       <Row>
         <Col lg={4} md={4} sm={4} xs={8}>
-          <LogoWrapper>
+          <LogoWrapper href="/">
             <StyledImage src="https://cdn.dsmcdn.com/mweb/production/trendyol-logov2.svg" />
           </LogoWrapper>
         </Col>

@@ -13,7 +13,7 @@ export const StyledHeader = styled.header`
 
 export const StyledImage = styled.img``;
 
-export const LogoWrapper = styled.div`
+export const LogoWrapper = styled.a`
   display: flex;
   height: 100%;
 
