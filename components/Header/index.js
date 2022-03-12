@@ -8,7 +8,7 @@ const Header = () => (
       <Row>
         <Col lg={4} md={4} sm={4} xs={8}>
           <LogoWrapper>
-            <StyledImage src="http://cdn.shopify.com/s/files/1/0596/1452/7675/files/example-logo_1200x1200.png?v=1634306608" />
+            <StyledImage src="https://cdn.dsmcdn.com/mweb/production/trendyol-logov2.svg" />
           </LogoWrapper>
         </Col>
 

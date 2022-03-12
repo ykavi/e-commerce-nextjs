@@ -10,8 +10,8 @@ export const Container = styled.div`
   @media (max-width: ${({ theme }) => theme.flexboxgrid.breakpoints.sm}em) {
     position: absolute;
     height: auto;
-    right: 8px;
-    top: 0;
+    right: 9px;
+    top: 1px;
   }
 `;
 

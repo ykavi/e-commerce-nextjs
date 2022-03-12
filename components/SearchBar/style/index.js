@@ -31,6 +31,7 @@ export const Container = styled.div`
   padding: 0 ${({ theme }) => theme.sizes.xxxxlarge};
 
   @media (max-width: ${({ theme }) => theme.flexboxgrid.breakpoints.sm}em) {
+    margin-top: ${({ theme }) => theme.sizes.xxxsmall};
     padding: 0;
   }
 `;
