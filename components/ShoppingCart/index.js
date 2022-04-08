@@ -1,5 +1,6 @@
 import { useTheme } from 'styled-components';
 import { Container, IconWrapper } from './style';
+import Cart from './Cart';
 import { Basket } from '@Icons';
 import { Text } from '@components';
 
@@ -15,6 +16,7 @@ const ShoppingCart = () => {
       <IconWrapper>
         <Basket width={30} />
       </IconWrapper>
+      <Cart />
     </Container>
   );
 };
