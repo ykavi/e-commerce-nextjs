@@ -5,7 +5,7 @@ const nextConfig = {
     styledComponents: true,
   },
   images: {
-    domains: ['vuaws.imgix.net'], //eklenen cdn domaini kullanılabilir
+    domains: ['cdn.dsmcdn.com'], //eklenen cdn domaini kullanılabilir
   },
 };
 
