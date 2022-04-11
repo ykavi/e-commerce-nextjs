@@ -33,3 +33,5 @@ export const CartContainer = styled.div`
 export const Content = styled.div`
   padding: ${({ theme }) => theme.sizes.medium} 0;
 `;
+
+export const ItemInfo = styled.div``;
