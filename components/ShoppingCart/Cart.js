@@ -9,6 +9,7 @@ const Cart = () => {
 
       <Content>
         <CartProduct />
+        <CartProduct />
       </Content>
     </CartContainer>
   );

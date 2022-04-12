@@ -11,4 +11,7 @@ export const Container = styled.div`
   ${({ margin }) => margin && `margin: ${margin}`};
 `;
 
-export const StyledText = styled.p``;
+export const StyledText = styled.p`
+  font-size: ${({ theme, size }) => theme.sizes[size]};
+  color: ${({ theme, color }) => theme.colors[color]};
+`;

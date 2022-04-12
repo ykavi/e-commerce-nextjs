@@ -34,4 +34,9 @@ export const Content = styled.div`
   padding: ${({ theme }) => theme.sizes.medium} 0;
 `;
 
-export const ItemInfo = styled.div``;
+export const ItemInfo = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+`;

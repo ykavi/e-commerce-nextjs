@@ -10,8 +10,13 @@ const CartProduct = () => {
       </Col>
       <Col lg={17}>
         <ItemInfo>
-          <Text>Spiderman Yeni Örümcek Adam 2 Maskeli Kostüm v733v</Text>
-          <Text>Spiderman Yeni Örümcek Adam 2 Maskeli Kostüm v733v</Text>
+          <Text size="small">Spiderman Yeni Örümcek Adam 2 Maskeli Kostüm v733v</Text>
+          <Text size="xsmall" color="grey_v4">
+            Renk: Beyaz
+          </Text>
+          <Text size="small" color="brand_color">
+            23,30 TL
+          </Text>
         </ItemInfo>
       </Col>
     </Row>

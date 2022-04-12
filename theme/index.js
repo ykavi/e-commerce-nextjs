@@ -5,6 +5,7 @@ const theme = {
     grey_v1: '#333333',
     grey_v2: '#e8e8e8',
     grey_v3: '#f3f3f3',
+    grey_v4: '#999999',
   },
   flexboxgrid: {
     gridSize: 24, // columns
